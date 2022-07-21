@@ -11,12 +11,14 @@ body{
     justify-content: center;
     align-items: center;
     background-color: brown;
+    
 }
 .container{
     width: 80%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+ 
 }
 .form-image{
     width: 50%;
@@ -25,6 +27,7 @@ body{
     align-items: center;
     background-color: #fdeded;
     padding: 1rem;
+    
 }
 .form-image img{
     width: 31rem;
@@ -37,6 +40,8 @@ body{
     flex-direction: column;
     background-color: #fff;
     padding: 3rem;
+    
+    
 }
 .form-header{
     margin-bottom: 3rem;
@@ -156,9 +161,11 @@ body{
     }
     .form{
         width: 100%;
+        border-radius: 30px;
     }
 }
 @media screen and (max-width: 1064px) {
+   
     .container{
         width: 90%;
         height: auto;
