@@ -1,0 +1,181 @@
+    * {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .header-menu {
+        background-color: brown;
+        height: 40px;
+        align-items: center;
+    }
+
+    .header-menu h2 {
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .login-container {
+        margin: auto;
+        width: 350px;
+        height: 400px;
+        background-color: brown;
+        border-radius: 15px;
+        margin-top: 100px;
+        box-shadow: 0px 0px 10px 1px gray;
+    }
+
+    .login-acesso {
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        display: flex;
+        margin-top: 70px;
+    }
+
+    .logo-img {
+        width: 250px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .logo-img img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: brown;
+        outline: none;
+        color: white;
+        font-size: 15px;
+        border-bottom-color: white;
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    h6 a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    h6 a:hover {
+        text-decoration: underline;
+    }
+
+    span {
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+
+    button {
+        background-color: transparent;
+        cursor: pointer;
+        margin-top: 20px;
+        border-color: white;
+        color: white;
+        width: 100px;
+    }
+
+    button:hover {
+        background-color: white;
+        color: black;
+        border-color: white;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+    .footer{
+        background-color: brown;
+        margin: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        color: white;
+        height: 40px;
+        padding: 10px;
+    }
+
+  
+    /*Responsividade*/
+
+    @media (max-width: 390px) {
+        .login-container {
+            margin: auto;
+            width: 300px;
+            height: 450px;
+            border-radius: 15px;
+            margin-top: 50px;      
+
+        }
+       
+
+        .header-menu {
+            height: 40px;
+            align-items: center;
+            width: 100%;
+
+        }
+
+        .header-menu h2 {
+            text-align: center;
+            padding: 18px;
+            font-size: 15px;
+        }
+
+        .login-acesso {
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .logo-img {
+            width: 150px;
+            height: 8S0px;
+            margin: auto;
+        }
+
+        .logo-img img {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        input {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background-color: brown;
+            outline: none;
+            font-size: 14px;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 10px;
+        }
+
+        .btn {
+            margin-top: 10px;
+        }
+        .footer{
+            background-color: brown;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding: 20px;
+          
+        }
+       
+    }
