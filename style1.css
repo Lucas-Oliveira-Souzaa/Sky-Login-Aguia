@@ -161,7 +161,7 @@ body{
     }
     .form{
         width: 100%;
-        border-radius: 30px;
+        border-radius: 15px;
     }
 }
 @media screen and (max-width: 1064px) {
